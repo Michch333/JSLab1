@@ -16,7 +16,11 @@ let longestName = Math.max(name1length, name2length, name3length);
 
 console.log(longestName);
 
-if ((longestName === name1length) && (longestName === name2length) && (longestName === name3length)){
+if (name1length === 0 || name2length === 0 || name3length === 0 ){ 
+    alert("woah, one or more of your names is incorrect. Please double check and try again")
+}
+
+else if ((longestName === name1length) && (longestName === name2length) && (longestName === name3length)){
     alert("All three names, " + name1 + ", " + name2 + ", " + name3 + ", are the same length.")
 }
 else if ((longestName === name1length) && (longestName === name2length)) {
