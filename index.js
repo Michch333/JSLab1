@@ -1,6 +1,6 @@
-let name1 = prompt("Please enter your name1", "");
-let name2 = prompt("Please enter your name2", "");
-let name3 = prompt("Please enter your name3", "");
+let name1 = prompt("Please enter your name", "");
+let name2 = prompt("Please enter your name", "");
+let name3 = prompt("Please enter your name", "");
 
 let name1length = (name1.length);
 let name2length = (name2.length);
